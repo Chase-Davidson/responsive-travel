@@ -1,0 +1,121 @@
+
+nav {
+  text-align: justify;
+  text-decoration: none;
+  color: #f0e68c;
+  background-color:  #ff8c00;
+  list-style-type: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+li {
+  list-style-type: decimal;
+  text-align: center;
+}
+  li a {
+    display: block;
+    color: #f0e68c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  /* Change the link color to black on hover */
+  li a:hover {
+    background-color: lightblue;
+    color:#f0e68c;;
+  }
+
+ol {
+  text-align: center;
+  list-style-type: lower-roman;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+h1 {
+  text-align: center;
+  background-image: url("plane.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  top: 10px;
+  font-size: 50pt;
+}
+h2, h3 {
+  text-align: center;
+  background-color: #ff8c00;
+  color: #f0e68c;
+}
+p {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.col2 {
+  float: left;
+  padding-left: 50px;
+  width: 55%
+}
+  .col1 {
+    float: right;
+    width: auto;
+    padding-right: 50px;
+    width: 35%;
+    text-align: center;
+  }
+  footer {
+    text-align: center;
+    clear: both;
+    font-variant: small-caps;
+  }
+  .fab {
+  color: rgba(0, 0, 255, 0.5);
+  background-color: White;
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.sidebar {
+  float: right;
+  padding-top: 10px;
+  padding-right: 12%;
+  text-align: center;
+}
+
+/*first break point*/
+@media screen and (max-width: 1000px) {
+  .col1, .col2{
+    width: 45%;
+    font-size: 1.6em;
+    float: none;
+  }
+}
+/*Second break point*/
+@media screen and (max-width: 750px) {
+  .col1, .col2 {
+    width: 100%;
+    float: none;
+  }
+}
+/* third break*/
+@media screen and (max-width: 400px) {
+  .col1, .col2 {
+    width: 100%;
+    text-align: center;
+    float: none;
+  }
+  .iframe {
+
+  }
+}

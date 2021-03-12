@@ -1,0 +1,30 @@
+/*first break point*/
+@media screen and (max-width: 1000px) {
+  .col1, .col2{
+    width: 45%;
+  }
+}
+
+  .col3 {
+    width: 100%
+  }
+
+/*Second break point*/
+@media screen and (max-width: 750px) {
+  .main-conent{
+    width: 100%;
+    float: none;
+  }
+}
+  .sidebar {
+    width: 100%;
+  }
+
+@media screen and (max-width: 400px) {
+  .col1, .col2 {
+    width: 100%;
+  }
+  .sidebox-1 {
+    display:none;
+  }
+}
